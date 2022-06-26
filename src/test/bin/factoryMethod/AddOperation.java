@@ -1,0 +1,14 @@
+package test.bin.factoryMethod;
+
+
+/**
+ * @Description
+ * @Author bin
+ * @Date 2021/08/18
+ */
+public class AddOperation implements IOperation {
+    @Override
+    public double getResult(double a, double b) {
+        return a + b;
+    }
+}
